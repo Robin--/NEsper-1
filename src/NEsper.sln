@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEsper.Core", "app\NEsper.Core\NEsper.Core.csproj", "{9BA26EAA-B2FB-436E-B3B4-0DB4F738E983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{907AEB52-4545-4BB4-B13A-234A6FD3580B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CF25ABA3-972D-4758-900D-484B7B0BD73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEsper.Core.Test", "test\NEsper.Core.Test\NEsper.Core.Test.csproj", "{16A93967-0216-4F3F-A0F5-C4D223CDBB8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA26EAA-B2FB-436E-B3B4-0DB4F738E983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA26EAA-B2FB-436E-B3B4-0DB4F738E983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA26EAA-B2FB-436E-B3B4-0DB4F738E983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA26EAA-B2FB-436E-B3B4-0DB4F738E983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A93967-0216-4F3F-A0F5-C4D223CDBB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A93967-0216-4F3F-A0F5-C4D223CDBB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A93967-0216-4F3F-A0F5-C4D223CDBB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A93967-0216-4F3F-A0F5-C4D223CDBB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA26EAA-B2FB-436E-B3B4-0DB4F738E983} = {907AEB52-4545-4BB4-B13A-234A6FD3580B}
+		{16A93967-0216-4F3F-A0F5-C4D223CDBB8A} = {CF25ABA3-972D-4758-900D-484B7B0BD73E}
+	EndGlobalSection
+EndGlobal
